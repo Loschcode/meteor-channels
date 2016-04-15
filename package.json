@@ -1,10 +1,28 @@
 {
-  "name": "channels",
-  "private": true,
+  "name": "meteor-channels",
+  "version": "1.0.0",
+  "description": "Tutorial is based on building Angular2 UI for a Meteor app called Socially.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotansimha/meteor-angular2.0-socially.git"
+  },
+  "author": "Dotan Simha &lt;dotansimha@gmail.com&gt; (http://github.com/dotansimha/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotansimha/meteor-angular2.0-socially/issues"
+  },
+  "homepage": "https://github.com/dotansimha/meteor-angular2.0-socially#readme",
+  "main": "index.js",
   "scripts": {
-    "start": "meteor run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "angular2": "^2.0.0-beta.12",
+    "angular2-meteor": "^0.5.2",
+    "es6-shim": "^0.35.0",
+    "meteor-node-stubs": "^0.2.3",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.6.11"
   }
 }
