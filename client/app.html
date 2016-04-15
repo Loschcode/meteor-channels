@@ -1,1 +1,11 @@
-<p>1 + 2 = {{ 1 + 2 }}</p>
+<div>
+  <ul>
+    <li *ngFor="#party of parties">
+
+      {{party.name}}
+      <p>{{party.description}}</p>
+      <p>{{party.location}}</p>
+      
+    </li>
+  </ul>
+</div>
