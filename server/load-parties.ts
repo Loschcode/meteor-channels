@@ -1,6 +1,7 @@
 import {Parties} from '../collections/parties.ts';
  
 export function loadParties() {
+  
   if (Parties.find().count() === 0) {
  
     var parties = [
