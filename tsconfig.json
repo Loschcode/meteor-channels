@@ -9,5 +9,8 @@
     "removeComments": false,
     "noImplicitAny": false,
     "sourceMap": true
-  }
+  },
+  "files": [
+    "typings/party.d.ts"
+  ]
 }
