@@ -10,6 +10,9 @@
     "noImplicitAny": false,
     "sourceMap": true
   },
+  "filesGlob": [
+    "**/*.ts"
+  ],
   "files": [
     "typings/party.d.ts"
   ]
